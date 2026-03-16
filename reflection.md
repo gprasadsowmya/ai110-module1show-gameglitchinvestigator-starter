@@ -10,6 +10,29 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 ---
 
+1. Hints across all levels
+Expected: give the correct hint to go lower or higher based on a comparision of guess vs secret. -> fix 1 
+Actual: Hints were outright wrong and in most cases were the oppposite of the correct hint.
+
+
+2. Range and number of attempts for Hard 
+Expected: According to the nature of the level, hard should have a larger range than easy and normal.
+Actual: Hard only tries 1 to 50. The number of attempts though is appropriately capped to 5.
+
+3. New game button across all levels
+Exected: Start a new game with a new game history block
+Actual: The button fails to start a new game with a new history block.
+
+
+4. Number of attempts across all levels -> fix 2 
+Expected: Number of attempts match the suggested number of attempts
+Actual: The attempts allowed are one short of the suggested attempts.
+
+5. Submit button across all levels 
+Expected: submit a guess on clicking
+Actual: button works only on 2 clicks after the first attempt.
+
+
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
