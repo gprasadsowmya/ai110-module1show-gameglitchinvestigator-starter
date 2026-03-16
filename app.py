@@ -76,7 +76,7 @@ with col3:
     show_hint = st.checkbox("Show hint", value=True)
 
 if new_game:
-    st.session_state.attempts = 0
+    st.session_state.attempts = 0   #FIX: Refactored logic into logic_utils.py and fixed the the number of attempts bug using Copilot Agent mode.
     st.session_state.secret = random.randint(1, 100)
     st.success("New game started.")
     st.rerun()

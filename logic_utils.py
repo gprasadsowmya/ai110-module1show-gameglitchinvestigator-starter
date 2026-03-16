@@ -49,7 +49,7 @@ def check_guess(guess, secret):
     except TypeError:
         g = str(guess)
         if g == secret:
-            return "Win", "🎉 Correct!"
+            return "Win", "🎉 Correct!" #FIX: Refactored logic into logic_utils.py and fixed the hint bug using Copilot Agent mode.
         if g > secret:
             return "Too High", "📉 Go LOWER!"
         return "Too Low", "📈 Go HIGHER!"
